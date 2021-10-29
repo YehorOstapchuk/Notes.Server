@@ -27,7 +27,8 @@ namespace Notes.WebApi.Middlewares
             }
             catch(Exception exception)
             {
-
+                Console.WriteLine("smth bad");
+                await HandleExceptionAsync(context, exception);
             }
         }
 

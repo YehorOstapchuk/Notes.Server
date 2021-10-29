@@ -28,7 +28,7 @@ namespace Notes.WebApi
                 }
                 catch(Exception)
                 {
-
+                    Console.WriteLine("smth bad");
                 }
             }
 
